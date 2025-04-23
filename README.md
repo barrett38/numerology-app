@@ -1,5 +1,7 @@
 # IN PROGRESS - NOT DONE YET
 
+Taking from previous project. Trying to finesse original.
+
 ## 📌 Description
 
 This App is meant to Calculate someone's numerology in an exploratory way.
