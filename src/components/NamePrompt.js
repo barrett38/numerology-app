@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function NamePrompt({ onSubmit }) {
   const [name, setName] = React.useState("");
 
