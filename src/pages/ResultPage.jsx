@@ -1,4 +1,3 @@
-// src/pages/ResultPage.js
 import { useLocation } from "react-router-dom";
 
 export default function ResultPage() {
