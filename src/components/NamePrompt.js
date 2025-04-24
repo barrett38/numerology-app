@@ -8,6 +8,8 @@ export default function NamePrompt({ onSubmit }) {
     if (name.trim()) onSubmit(name.trim());
   };
 
+  const nextButton = `>`;
+
   return (
     <form onSubmit={handleSubmit}>
       <h2>What's your full name?</h2>
@@ -17,7 +19,7 @@ export default function NamePrompt({ onSubmit }) {
         onChange={(e) => setName(e.target.value)}
         required
       />
-      <button type="submit">Next</button>
+      <button type="submit">{nextButton}</button>
     </form>
   );
 }
